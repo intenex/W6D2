@@ -1,0 +1,90 @@
+/* PHASE 9: Forms */
+
+/* <form class="form group">
+
+<a href="#" class="form-thumb thumb" title="Sennacy">
+  <img src="./images/cat.jpg" alt="">
+</a>
+
+<fieldset class="form-fieldset">
+  <div class="input">
+    <label for="form-title">Post Title</label>
+    <input id="form-title" type="text" value="Lorem Ipsum Dolor Sit Amet">
+  </div>
+
+  <div class="input">
+    <label for="form-textarea">Post Body</label>
+    <textarea id="form-textarea">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</textarea>
+  </div>
+
+  <div class="submit">
+    <button>Post To Wall</button>
+    <span class="button-alternative">or <strong>Cancel</strong></span>
+  </div>
+
+</fieldset>
+</form> */
+
+a.form-thumb:active {
+    
+}
+
+div.submit > span > strong {
+    font-weight: 700;
+}
+
+.input {
+    margin: 0 0 20px 0;
+}
+
+.input > label {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.input > input,
+ .input > textarea {
+    display: block;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(100% - 22px);
+    border-radius: 5px;
+ 
+}
+
+.input > textarea {
+    height: 120px;
+}
+
+.submit > button {
+    position: relative;
+    padding: 10px 20px;
+    color: #fff;
+    background: #0c0;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 3px 0 0 #070;
+  }
+  
+  .submit > button:hover {
+    background: #0b0;
+  }
+  
+
+.form-thumb {
+    float: left;
+    display: block;
+
+}
+
+.form-fieldset {
+    background-color: lightgray;
+    border-radius: 1%;
+    height: 350px;
+    width: 500px;
+    margin-left: 100px;
+    padding: 15px;
+}
+
