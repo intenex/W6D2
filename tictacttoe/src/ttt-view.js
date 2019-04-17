@@ -13,6 +13,7 @@ class View {
       this.game.playMove(pos);
       $li.text(this.game.currentPlayer);
       (this.game.isOver()) ? alert(`${this.game.currentPlayer} wins!`) : undefined;
+      
     })
   }
 

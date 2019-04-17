@@ -1,0 +1,46 @@
+ul {
+    width: 245px;
+    list-style: none;
+    float: left;
+    border-bottom: 10px solid black;
+    margin: 10px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul:hover {
+    border-bottom: 10px solid green;
+}
+
+.select{
+    border-bottom: 10px solid red;
+}
+
+li {
+    height: 50px;
+    width: 0px;
+    margin: 0px 25px 10px 0px;
+    background: gray;
+    border-radius: 25px;
+}
+
+.disk-1 {
+    width: 60px;
+}
+
+.disk-2 {
+    width: 120px;
+}
+
+.disk-3 {
+    width: 180px;
+}
+
+ul > li {
+    
+    /* background-color: lightgray;
+    height: 90px;  */
+}
+
